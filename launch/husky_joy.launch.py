@@ -18,9 +18,9 @@ def generate_launch_description():
     )
 
     husky_teleop = Node(
-        package='your_package',
+        package='legion_joystick',
         executable='legion_joystick',
-        name='legion_joy_teleop',
+        name='legion_joystick',
         output='screen',
         remappings=[
             ('/cmd_vel', '/a300_00008/cmd_vel'),
