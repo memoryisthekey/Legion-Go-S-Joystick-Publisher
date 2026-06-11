@@ -23,7 +23,7 @@ def generate_launch_description():
         name='legion_joystick',
         output='screen',
         remappings=[
-            ('/cmd_vel', '/a300_00008/cmd_vel'),
+            ('/cmd_vel', '/a300_00008/platform/cmd_vel'),
         ]
     )
 
