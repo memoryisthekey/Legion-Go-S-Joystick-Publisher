@@ -72,3 +72,9 @@ self.right_bumper_button = 5  # Change index for your controller
 self.slow_linear = 0.4
 self.fast_linear = 1.0 
 ```
+
+## This node is a System Service
+This node has been setup as a System Service on the Legion Device.
+If it is your first time setup, check out the folder `system_services`for more information on how to setup/run/debug the service.
+
+Otherwise the service should be running as you turn on the device.

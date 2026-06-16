@@ -1,0 +1,14 @@
+[Unit]
+Description=Service to launch Legion Joystick Node for Husky
+after=network.target
+
+[Service]
+Type=simple
+User=legion
+ExecStart=/home/legion/ros2_ws/src/Legion-Go-S-Joystick-Publisher/system_services/start_ros_joystick.sh
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
+
