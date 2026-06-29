@@ -6,7 +6,7 @@ After=network.target
 Type=simple
 User=legion
 # wait 45 seconds for the controller to start
-ExecStartPre=/bin/sleep 45
+ExecStartPre=/bin/sleep 10
 Environment=ROS_DOMAIN_ID=0
 ExecStart=/home/legion/ros2_ws/src/Legion-Go-S-Joystick-Publisher/system_services/start_ros_joystick.sh
 Restart=on-failure
