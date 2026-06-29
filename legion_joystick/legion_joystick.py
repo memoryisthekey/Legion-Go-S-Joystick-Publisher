@@ -28,7 +28,7 @@ class LegionJoystick(Node):
         self.slow_linear = 0.4
         self.slow_angular = 0.8
 
-        self.fast_linear = 1.0
+        self.fast_linear = 1.5
         self.fast_angular = 1.8
 
     def joy_callback(self, msg):
